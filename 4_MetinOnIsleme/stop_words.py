@@ -1,3 +1,4 @@
+#%% ingilizce stop words analizii
 import nltk
 
 from nltk.corpus import stopwords 
