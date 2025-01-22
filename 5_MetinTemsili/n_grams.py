@@ -24,6 +24,7 @@ bigram_features = vectorizer_bigram.get_feature_names_out()
 X_trigram = vectorizer_trigram.fit_transform(documents)
 trigram_features = vectorizer_trigram.get_feature_names_out()
 
+print(X_bigram)
 # sonuclarin incelenmesi
 print(f"unigram_features: {unigram_features}")
 print(f"bigram_features: {bigram_features}")
